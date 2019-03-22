@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Triangle Tracker</title>
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Tinos" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="heading">
+  <h1> Welcome to Triangel Tracker</h1>
+</div>
+<div class="instructions">
+  <h2>Enter your three lengths:</h2>
+</div>
+<div class="entries">
+  <div class="entry">
+    <label for="sideA">Side A</label>
+        <input type="number" name="sideA" id="sideA">
+  </div>
+  <div class="entry">
+        <label for="sideB">Side B</label>
+        <input type="number" name="SideB" id="sideB">
+      </div>
+      <div class="entry">
+        <label for="sideC">Side C</label>
+        <input type="number" name="sideC" id="sideC">
+      </div>
+</div>
+<div class="test">
+      <button type="submit" name="button" onclick="tracker();">Test</button>
+      <button type="reset" onclick=" document.getElementById('sideA').value = ''; document.getElementById('sideB').value = ''; document.getElementById('sideC').value = ''; myPage()">Reset</button>
+    </div>
+
+
+</body>
+
+</html>
