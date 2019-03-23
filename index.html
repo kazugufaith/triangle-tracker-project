@@ -11,30 +11,53 @@
 
 <body>
   <div class="heading">
-  <h1> Welcome to Triangel Tracker</h1>
-</div>
-<div class="instructions">
-  <h2>Enter your three lengths:</h2>
-</div>
-<div class="entries">
-  <div class="entry">
-    <label for="sideA">Side A</label>
-        <input type="number" name="sideA" id="sideA">
+    <h1> Welcome to Triangel Tracker</h1>
   </div>
-  <div class="entry">
-        <label for="sideB">Side B</label>
-        <input type="number" name="SideB" id="sideB">
-      </div>
-      <div class="entry">
-        <label for="sideC">Side C</label>
-        <input type="number" name="sideC" id="sideC">
-      </div>
-</div>
-<div class="test">
-      <button type="submit" name="button" onclick="tracker();">Test</button>
-      <button type="reset" onclick=" document.getElementById('sideA').value = ''; document.getElementById('sideB').value = ''; document.getElementById('sideC').value = ''; myPage()">Reset</button>
+  <div class="instructions">
+    <h2>Enter your three lengths:</h2>
+  </div>
+  <div class="entries">
+    <div class="entry">
+      <label for="sideA">Side A</label>
+      <input type="number" name="sideA" id="sideA">
     </div>
-
+    <div class="entry">
+      <label for="sideB">Side B</label>
+      <input type="number" name="SideB" id="sideB">
+    </div>
+    <div class="entry">
+      <label for="sideC">Side C</label>
+      <input type="number" name="sideC" id="sideC">
+    </div>
+  </div>
+  <div class="test">
+    <button type="submit" name="button" onclick="tracker();">Test</button>
+    <button type="reset" onclick=" document.getElementById('sideA').value = ''; document.getElementById('sideB').value = ''; document.getElementById('sideC').value = ''; myPage()">Reset</button>
+  </div>
+  <div class="result">
+    <span id="result"></span>
+  </div>
+  <div id="props" class="properties">
+    <div id="equilateral" class="property">
+      <h3>Equilateral triangle!</h3>
+      <img width="200" height="170" src="images/equilateral.png" alt="Equilateral triangle">
+      <p>In geometry, an equilateral triangle is a triangle in which all three sides are equal. In the familiar Euclidean geometry, an equilateral triangle is also equiangular; that is, all three internal angles are also congruent to each other and
+        are each 60°. It is also a regular polygon, so it is also referred to as a regular triangle. <a href="https://en.wikipedia.org/wiki/Equilateral_triangle" target="_blank">Learn about equilateral triangles</a></p>
+    </div>
+    <div id="isosceles" class="property">
+      <h3>Isosceles triangle!</h3>
+      <img width="200" height="170" src="images/isosceles.jpg" alt="Isosceles triangle">
+      <p>In geometry, an isosceles triangle is a triangle that has two sides of equal length. Sometimes it is specified as having exactly two sides of equal length, and sometimes as having at least two sides of equal length, the latter version thus
+        including the equilateral triangle as a special case. <a href="https://en.wikipedia.org/wiki/Isosceles_triangle" target="_blank">Learn about isosceles triangles</a></p>
+    </div>
+    <div id="scalene" class="property">
+      <h3>Scalene triangle!</h3>
+      <img width="200" height="170" src="images/scalene.jpg" alt="Scalene triangle">
+      <p>Scalene triangles are defined as a triangle where the interior angles are all different. Most triangles drawn at random would be scalene. The converse of this is also true - If all three angles are different, then the triangle is scalene,
+        and all the sides are different lengths. <a href="  https://en.wikipedia.org/?title=Scalene_triangle&redirect=no" target="_blank">Learn about scalene triangles</a></p>
+    </div>
+  </div>
+  <script type="text/javascript" src="js/scripts.js"></script>
 
 </body>
 
