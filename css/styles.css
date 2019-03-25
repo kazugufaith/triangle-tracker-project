@@ -21,7 +21,6 @@ p{
   font-size: 160%;
 }
 .entries{
-/*  display: flex;*/
   justify-content: space-around;
   padding-bottom: 2%;
   font-size: 150%;
@@ -37,11 +36,9 @@ p{
   border-color: rgba(0, 0, 0, 0.8);
 }
 input{
-  /*display: block;*/
   font-size: 150%;
   text-align: center;
   text-decoration: none;
-  /*display: inline-block;*/
   width: 58%;
   margin-left: 20%;
   margin-right: 20%;
@@ -63,10 +60,34 @@ input{
 }
 .result{
   text-align: center;
-  background-color:blue;
+  background-color:#00FFFF;
   border: 5px solid;
   width: 30%;
   margin: 1%;
   margin-left: 35%;
   margin-right: 35%;
+}
+.properties{
+  display: none;
+  align-items: space-around;
+}
+.properties2{
+  display: flex;
+  align-items: space-around;
+}
+.property{
+  width: 31%;
+  margin: 1%;
+  padding: 0.5%;
+  background-color: silver;
+  border: 2px solid;
+  border-color: rgba(0, 0, 0, 0.8);
+}
+.property2{
+  width: 31%;
+  margin: 1%;
+  padding: 0.5%;
+  background-color: silver;
+  border: 2px solid;
+  border-color: rgba(0, 0, 0, 0.8);
 }
