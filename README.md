@@ -5,7 +5,7 @@
 2. It basically displays the type of triangle, Based on the 3 input values, that is the threes sides of a triangle.
 
 ### Setup/Installation Requirements
-Go to the deployed site on:
+Go to the deployed site on:https://kazugufaith.github.io/triangle-tracker-project/
 Enter the three lengths you would like to test.
 Submit the values and wait for your result.
 
@@ -31,6 +31,7 @@ Faith Kazungu
 |Data type !== number	            |["number", null]               |enter value!         |
 
 ### Live Link
+https://kazugufaith.github.io/triangle-tracker-project/
 
 ### CONTACTS
 1. faithmugesia@gmail.com
