@@ -21,7 +21,7 @@ function tracker() {
   //Business logic
   function triangleCheck() {
     //Array for triangle types
-    var triangleTypes = ["equilateral", "isosceles", "scalene"];
+    var triangleTypes = ["equilateral", "issosceles", "scalene"];
     //Test triangles for type
     if ((sideA + sideB) <= sideC || (sideB + sideC) <= sideA || (sideA + sideC) <= sideB) {
       document.getElementById('result').innerHTML = "This is NOT a triangle"; //Display if not triangle
@@ -30,7 +30,7 @@ function tracker() {
      document.getElementById('result').innerHTML = "This is an " + triangleTypes[0] + " triangle"; var div = document.getElementById("props"); div.classList.remove("properties"); div.classList.add("properties2");var div = document.getElementById("equilateral"); div.classList.remove("property"); div.classList.add("property2");//Display if equilateral
    }
    else if(sideA === sideB || sideB === sideC || sideA === sideC){
-     document.getElementById('result').innerHTML = "This is an " + triangleTypes[1] + " triangle"; var div = document.getElementById("props"); div.classList.remove("properties"); div.classList.add("properties2"); var div = document.getElementById("isosceles"); div.classList.remove("property"); div.classList.add("property2");//Display if equilateral//Display if isosceles
+     document.getElementById('result').innerHTML = "This is an " + triangleTypes[1] + " triangle"; var div = document.getElementById("props"); div.classList.remove("properties"); div.classList.add("properties2"); var div = document.getElementById("issosceles"); div.classList.remove("property"); div.classList.add("property2");//Display if equilateral//Display if issosceles
    }
    else{
      document.getElementById('result').innerHTML = "This is a " + triangleTypes[2] + " triangle"; var div = document.getElementById("props"); div.classList.remove("properties"); div.classList.add("properties2"); var div = document.getElementById("scalene"); div.classList.remove("property"); div.classList.add("property2");//Display if equilateral//Display if scalene
