@@ -1,0 +1,93 @@
+body {
+  background-image: url("/home/faith/Documents/triangle-tracker/images/background.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.heading h1{
+  text-transform: uppercase;
+  text-align: center;
+  background-color: white;
+  font-size: 300%;
+  font-family: 'Oleo Script', cursive;
+}
+p{
+  font-family: 'Cinzel Decorative', cursive;
+}
+.instructions{
+  text-align: center;
+  padding-top: 1%;
+}
+.instructions h2{
+  font-size: 160%;
+}
+.entries{
+  justify-content: space-around;
+  padding-bottom: 2%;
+  font-size: 150%;
+  text-align: center;
+}
+.entry{
+  text-align: center;
+  width: 31%;
+  margin: 1%;
+  padding: 0.5%;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid;
+  border-color: rgba(0, 0, 0, 0.8);
+}
+input{
+  font-size: 150%;
+  text-align: center;
+  text-decoration: none;
+  width: 58%;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: white;
+  border-color: black;
+}
+.test button{
+  text-align: center;
+  text-decoration: none;
+  font-size: 150%;
+  width: 15%;
+  margin-left: 45%;
+  margin-right: 44%;
+  text-transform: uppercase;
+}
+.test button:hover{
+  background-color: red;
+  color: white;
+}
+.result{
+  text-align: center;
+  background-color:#00FFFF;
+  border: 5px solid;
+  width: 30%;
+  margin: 1%;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+.properties{
+  display: none;
+  align-items: space-around;
+}
+.properties2{
+  display: flex;
+  align-items: space-around;
+}
+.property{
+  width: 31%;
+  margin: 1%;
+  padding: 0.5%;
+  background-color: silver;
+  border: 2px solid;
+  border-color: rgba(0, 0, 0, 0.8);
+}
+.property2{
+  width: 31%;
+  margin: 1%;
+  padding: 0.5%;
+  background-color: silver;
+  border: 2px solid;
+  border-color: rgba(0, 0, 0, 0.8);
+}
