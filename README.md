@@ -18,12 +18,13 @@ Faith Kazungu
 3.JavaScript
 
 ### Behavior Driven Development (The Specifications)
-Behavior	Input	Output
-All values match	[5,5,5]	equilateral
-Two values match	[5,5,4]	isoceles
-No values match	[5,4,3]	scalene
-Sum of 2 values<= third value	[5,4,11]	no triangle
-Data type !== number	["number", null]	enter value!
+| Behavior                        |	Input	                        |  Output     
+|--------------------------------:|------------------------------:|----------  |
+|All values match                 |[5,5,5]	                     :|equilateral |
+|Two values match	                |[5,5,4]                       :|isosceles   |
+|No values match                  |[5,4,3]                      :|scalene     |
+|Sum of 2 values<= third value    |[5,4,11]                     :|no triangle |
+|Data type !== number	            |["number", null]              :|enter value!|
 
 ### Live Link
 
