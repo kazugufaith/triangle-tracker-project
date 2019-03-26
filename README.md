@@ -20,11 +20,8 @@ Faith Kazungu
 ### Behavior Driven Development (The Specifications)
 | Behavior                        |	Input	                        |  Output     
 |---------------------------------|-------------------------------|---------------------|
-<<<<<<< HEAD
 |All values match                 |[5,5,5]	                      |equilateral triangle |
-=======
 |All values match                 |[4,4,4]	                      |equilateral triangle |
->>>>>>> gh-pages
 |Two values match	                |[5,5,4]                        |isosceles  triangle  |
 |No values match                  |[5,4,3]                        |scalene   triangle   |
 |Sum of 2 values<= third value    |[5,4,11]                       |no triangle          |
@@ -37,9 +34,5 @@ https://kazugufaith.github.io/triangle-tracker-project/
 1. faithmugesia@gmail.com
 2. +254-798-578-613
 
-<<<<<<< HEAD
-License
-=======
 ### License
->>>>>>> gh-pages
 MIT License Copyright (c) {2019} Faith Kazungu
